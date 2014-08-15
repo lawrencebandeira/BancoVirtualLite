@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="hello">Hello World, BancoVirtualActivity!</string>
+    <string name="app_name">VirtualBank</string>
+    <string name="User">Branch / Account</string>
+    <string name="Agencia">Branch</string>
+    <string name="Conta">Account</string>
+    <string name="Password">Password</string>
+    <string name="Access">Login</string>
+    <string name="QRCode">QRCode</string>
+    <string name="Transfer">Transfer</string>
+    <string name="Token">QRCode Validation</string>
+    <string name="OOB">Pending Transactions</string>
+    <string name="Transaction">Transaction</string>
+    <string name="Value">Value</string>
+    <string name="Agency">Branch</string>
+    <string name="Account">Account</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Confirm">Confirm</string>
+    <string name="Beneficiario">Recipient</string>
+    <string name="Options">Options</string>
+    <string name="Notification">Notifying Test</string>
+    <string name="NotificationId">9908761</string>
+    <string name="UpdateProtector">Protector Update</string>
+    <string name="UpdateProtectorProgess">Connecting...</string>
+    <string name="ScanProtector">Scan Device</string>
+    <string name="Protector">G-Buster Protector</string>
+    <string name="VascoToken">Token VASCO</string>
+    <string name="ConfirmWithToken">With TOKEN</string>
+    <string name="ProtectorBackground">Logo Protector</string>
+    <string name="ProviderToken">TOKEN Provider</string>
+    <string name="etc">…</string>
+    <string name="Sim">YES</string>
+    <string name="Nao">NO</string>
+    <string name="clear">Clean</string>
+    <string name="Save">Save</string>
+    <string name="Theme">Theme</string>
+    <string name="TaidNumber">TAID Number</string>
+    <string name="Taid">Voice Call Authorization</string>
+    <string name="UnlockCard">Unlock Blocked Card</string>
+    <string name="WithdrawATM">ATM Withdraw</string>
+    <string name="Config">Settings</string>
+    <string-array name="TokenProvider">
+        <item>GAS Tecnologia - Authenticus</item>
+        <item>Vasco - One Time Password</item>
+    </string-array>
+    <string-array name="Themes">
+        <item>Blue</item>
+		<item>Yellow</item>
+		<item>OrangeWithBlue</item>
+		<item>Orange</item>
+		<item>Green</item>
+		<item>Red</item>
+    </string-array>
+	<string name="ServerKeyUrl">GetSeed URL- deviceInfo</string>
+	<string name="RegisterDeviceUrl">Register URL - deviceInfo;branch;account;deviceId</string>
+	<string name="ValideteDeviceUrl"> Validate URL - deviceInfo;branch;account;password</string>
+	<string name="TaspServiceURL"> TASP Service URL</string>
+	
+	<string name="AccountActivity_1">Updating Protector DB. Wait...</string>
+	
+	<string name="AccountActivity_2">Fail</string>
+	
+	<string name="AccountActivity_3">Voice Call problem to number: %s</string>
+	
+	<string name="AccountActivity_4">Fill the withdraw value</string>
+	
+	<string name="AccountActivity_5">Error</string>
+	
+	<string name="AccountActivity_6">Withdraw value must be multiple of 10</string>
+	
+	<string name="AccountActivity_7">Invalid withdraw value.</string>
+	
+	<string name="AccountActivity_8">OTP VASCO</string>
+	
+	<string name="AccountActivity_9">TOKEN</string>
+	
+	<string name="AccountActivity_10">Invalid QRCode</string>
+	
+	<string name="ATMAsyncTask_1">Wait...</string>
+	
+	<string name="AuthorizePaymentTask_1">Wait...</string>
+	
+	<string name="AuthorizePaymentTask_2">Unauthorized Transaction</string>
+	
+	<string name="BancoVirtualActivity_1">Security Issues. Run G-Buster Protector.</string>
+	
+	<string name="BancoVirtualActivity_2">Error</string>
+	
+	<string name="BancoVirtualActivity_3">Success</string>
+	
+	<string name="BancoVirtualActivity_4">Device registered successfully</string>
+	
+	<string name="LoginTask_1">Authenticating...</string>
+	
+	<string name="LoginTask_2">Invalid User and/or Password</string>
+	
+	<string name="LoginTask_3">Unregistered Device</string>
+	
+	<string name="LoginTask_4">Server connection error</string>
+	
+	<string name="PendingTransactionActivity_1">Error</string>
+	
+	<string name="PendingTransactionActivity_2">There are suspicious applications installed on your device. Unauthorized transaction</string>
+	
+	<string name="RegisterDeviceTask_1">Wait...</string>
+	
+	<string name="TaspAsyncTask_1">Wait...</string>
+	
+	<string name="TransferActivity_1">Authorized Transaction.</string>
+	
+	<string name="TransferActivity_2">Success</string>
+	
+	<string name="TransferActivity_3">Error</string>
+	
+	<string name="TransferActivity_4">There are suspicious applications installed on your device. Unauthorized transaction</string>
+	
+	<string name="TransferActivity_5">Please, fill all forms.</string>
+	
+	<string name="TransferActivity_6">Authorized Transaction by OTP Vasco:</string>
+	
+	<string name="UnlockCardTask_1">Wait...</string>
+	
+	<string name="UnlockCardTask_2">Unlocking card</string>
+	
+	<string name="UnlockCardTask_3">Unlocked card</string>
+	
+	<string name="UnlockCardTask_4">Unlocking card operation failed</string>
+	
+	<string name="UnlockCardTask_5">Card unlock</string>
+	
+	<string name="AuthenticusHelper_1">Error</string>
+	
+	<string name="AuthenticusHelper_2">Invalid communication key!</string>
+	
+	<string name="AuthenticusHelper_3">Internal Error!</string>
+	
+	<string name="AuthenticusHelper_4">Invalid server session.</string>
+	
+	<string name="BVDatabaseUpdateHandler_1">Interrupted update.</string>
+	
+	<string name="BVDatabaseUpdateHandler_2">Update completed successfully!</string>
+	
+	<string name="BVDatabaseUpdateHandler_3">An error occurred while updating the database.</string>
+	
+	<string name="BVDatabaseUpdateHandler_4">Connecting...</string>
+	
+	<string name="BVDatabaseUpdateHandler_5">Loading header.</string>
+	
+	<string name="BVDatabaseUpdateHandler_6">Not updated. Updating now...</string>
+	
+	<string name="BVDatabaseUpdateHandler_7">Loading files: </string>
+	
+	<string name="BVDatabaseUpdateHandler_8"> of </string>
+	
+	<string name="BVDatabaseUpdateHandler_9">Installing files: </string>
+	
+	<string name="BVDatabaseUpdateHandler_10">Loading heuristics...</string>
+	
+	<string name="BVDatabaseUpdateHandler_12">Installing heuristics...</string>
+	
+	<string name="BVScannerHandler_1">An error occurred while scanning device.</string>
+	
+	<string name="BVScannerHandler_2">Malware not found.</string>
+	
+	<string name="ProtectorScanDeviceActivity_1">Cancel scan?</string>
+	
+	<string name="ProtectorScanResultActivity_1">All malwares was removed successfully.</string>
+	
+	<string name="ProtectorUpdateActivity_1">Wish to cancel the update process?</string>
+	
+	<string name="TaspServiceHelper_1">ERROR: 0x1 - Failed to encode message for transmission</string>
+	
+	<string name="TaspServiceHelper_2">ERROR: 0x2 - Failed to decode the return message</string>
+	
+	<string name="TaspServiceHelper_3">ERROR: 0x3 - Error instantiating transactions</string>
+	
+	<string name="TaspServiceHelper_4">ERROR: 0x4 - Failed to read the returned XML</string>
+	
+	<string name="TaspServiceHelper_5">ERROR: 0x5 - Unable to establish a connection with the server. Check your internet connection and try again</string>
+	
+	<string name="TaspServiceHelper_6">ERROR: 0x6 - Incorrect commands</string>
+	
+	<string name="TaspServiceHelper_7">ERROR 1.%s - Internal error</string>
+	
+	<string name="TaspServiceHelper_8">Authorization code: %s</string>
+	
+	<string formatted="false" name="TaspServiceHelper_9">Authorization code: %i\nR$ %s</string>
+	
+	<string name="TaspServiceHelper_10">ERROR 0x71 - Internal Error</string>
+	
+	<string name="TaspServiceHelper_11">ERROR 1.%s - Internal Error</string>
+	
+	<string name="TaspServiceHelper_12">ERROR - Device Registration. Code:</string>
+	
+	<string name="TransactionListAdapter_1">Branch:</string>
+	
+	<string name="TransactionListAdapter_2">Account:</string>
+	
+	<string name="protector_scan_1">Scanned apps:</string>
+	
+	<string name="protector_scan_2">Malwares found:</string>		
+	
+</resources>

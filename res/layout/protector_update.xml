@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@id/mainLayout" >
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="45dp"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignParentTop="true"
+	    android:background="@drawable/topo"
+	    android:orientation="horizontal" >
+	    <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/Protector"
+            android:layout_gravity="center"
+            android:textAppearance="?android:attr/textAppearanceMedium" 
+            android:textColor="@android:color/white"
+            android:textStyle="bold"/>
+	</LinearLayout>
+
+	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:layout_centerVertical="true"
+	    android:orientation="vertical" >
+
+		<ProgressBar
+		    android:id="@+id/progressBar1"
+		    style="?android:attr/progressBarStyleLarge"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center"
+		    android:gravity="center" />
+
+		<TextView
+		    android:id="@+id/txtProtectorUpdateMessage"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center"
+		    android:gravity="center"
+		    android:layout_marginTop="20dp"
+		    android:text=""
+		    android:textColor="@android:color/black" 
+		    android:textSize="20sp"/>
+
+	</LinearLayout>
+
+	<Button
+	    android:id="@+id/button1"
+	    android:layout_width="match_parent"
+	    android:layout_height="50dp"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentLeft="true"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+	    android:layout_marginBottom="10dp"
+	    android:onClick="btnStopUpdateOnClick"
+	    android:text="@string/Cancel"
+	    android:textSize="8pt"
+        android:textColor="@android:color/black"
+    	android:background="@drawable/btn_gray" />
+    
+</RelativeLayout>

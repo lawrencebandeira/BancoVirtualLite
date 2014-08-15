@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" 
+        android:background="#64aede"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_launcher"
+            android:paddingRight="10dp"/>
+
+        <TextView
+            android:id="@+id/title_trans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/auth_transaction_dialog_title"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#626262" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_confirm"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/btn_blue"
+        android:onClick="butAccess_Click"
+        android:text="@string/auth_transaction_dialog_confirm"
+        android:textColor="@android:color/white"
+        android:textSize="7pt"
+        android:textStyle="bold" 
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <Button
+        android:id="@+id/button_decline"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/btn_red"
+        android:onClick="butAccess_Click"
+        android:text="@string/auth_transaction_dialog_refuse"
+        android:textColor="@android:color/white"
+        android:textSize="7pt"
+        android:textStyle="bold" 
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"/>
+	
+</LinearLayout>

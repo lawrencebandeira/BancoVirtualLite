@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="auth_transaction_dialog_title">Autorização</string>
+    <string name="auth_transaction_dialog_confirm">Autorizar</string>
+    <string name="auth_transaction_dialog_refuse">Recusar</string>
+    <string-array name="auth_transaction_dialog_item">
+        <item>Autorizar</item>
+        <item>Recusar</item>
+    </string-array>
+
+
+    <string name="hello">Hello World, BancoVirtualActivity!</string>
+    <string name="app_name">BancoVirtual</string>
+    <string name="User">Agência / Conta</string>
+    <string name="Agencia">Agência</string>
+    <string name="Conta">Conta</string>
+    <string name="Password">Senha</string>
+    <string name="Access">Acessar</string>
+    <string name="QRCode">QRCode</string>
+    <string name="Transfer">Transferência</string>
+    <string name="Token">Autorização via QRCode</string>
+    <string name="OOB">Transações pendentes</string>
+    <string name="Transaction">Transação</string>
+    <string name="Value">Valor</string>
+    <string name="Agency">Agência</string>
+    <string name="Account">Conta</string>
+    <string name="Cancel">Cancelar</string>
+    <string name="Confirm">Confirmar</string>
+    <string name="Beneficiario">Beneficiario</string>
+    <string name="Options">Opções</string>
+    <string name="Notification">Teste de notificação</string>
+    <string name="NotificationId">9908761</string>
+    <string name="UpdateProtector">Atualizar\nProtector</string>
+    <string name="UpdateProtectorProgess">Conectando...</string>
+    <string name="ScanProtector">Examinar Dispositivo</string>
+    <string name="Protector">G-Buster Protector</string>
+    <string name="VascoToken">Token VASCO</string>
+    <string name="ConfirmWithToken"> C/ Token</string>
+    <string name="ProtectorBackground">Logo Protector</string>
+    <string name="ProviderToken">Provedor de Tokens</string>
+    <string name="etc">…</string>
+    <string name="Sim">Sim</string>
+    <string name="Nao">Não</string>
+    <string name="clear">Limpar</string>
+    <string name="Save">Salvar</string>
+    <string name="Theme">Tema</string>
+    <string name="TaidNumber">Número para Taid</string>
+    <string name="Taid">Autorização via chamada de voz</string>
+    <string name="UnlockCard">Desbloquear cartão</string>
+    <string name="WithdrawATM">Saque sem cartão</string>
+    <string name="Config"> Configurações</string>
+    <string-array name="TokenProvider">
+        <item>GAS Tecnologia - Authenticus</item>
+        <item>Vasco - One Time Password</item>
+    </string-array>
+    <string-array name="Themes">
+        <item>Blue</item>
+		<item>Yellow</item>
+		<item>OrangeWithBlue</item>
+		<item>Orange</item>
+		<item>Green</item>
+		<item>Red</item>
+    </string-array>
+	<string name="ServerKeyUrl">GetSeed URL- deviceInfo</string>
+	<string name="RegisterDeviceUrl">Register Device URL - deviceInfo;agency;account;deviceId</string>
+	<string name="ValideteDeviceUrl"> Validate Device URL - deviceInfo;agency;accoun;password</string>
+	<string name="EvntUrl">Event URL</string>
+	<string name="TaspServiceURL"> TASP Service URL</string>
+	
+	<string name="AccountActivity_1">Atualizando base Protector. Aguarde...</string>
+	
+	<string name="AccountActivity_2">Falha</string>
+	
+	<string name="AccountActivity_3">Nao foi possível realizar ligacao para o numero: %s</string>
+	
+	<string name="AccountActivity_4">Informe o valor do saque</string>
+	
+	<string name="AccountActivity_5">Erro</string>
+	
+	<string name="AccountActivity_6">Valor do saque deve ser multiplo de 10</string>
+	
+	<string name="AccountActivity_7">Valor de saque inválido.</string>
+	
+	<string name="AccountActivity_8">OTP VASCO</string>
+	
+	<string name="AccountActivity_9">Token</string>
+	
+	<string name="AccountActivity_10">QRCode invalido</string>
+	
+	<string name="ATMAsyncTask_1">Aguarde...</string>
+	
+	<string name="AuthorizePaymentTask_1">Aguarde...</string>
+	
+	<string name="AuthorizePaymentTask_2">Nao foi possível autorizar esta transacao</string>
+	
+	<string name="BancoVirtualActivity_1">Há pendências de segurança. Execute o G-Buster Protector.</string>
+	
+	<string name="BancoVirtualActivity_2">Error</string>
+	
+	<string name="BancoVirtualActivity_3">Sucesso</string>
+	
+	<string name="BancoVirtualActivity_4">Dispositivo cadastrado com sucesso</string>
+	
+	<string name="LoginTask_1">Autenticando...</string>
+	
+	<string name="LoginTask_2">Usuário e/ou Senha invalido(s)</string>
+	
+	<string name="LoginTask_3">Esse dispositivo ainda não foi cadastrado</string>
+	
+	<string name="LoginTask_4">Falha na conexão com o servidor</string>
+	
+	<string name="PendingTransactionActivity_1">Error</string>
+	
+	<string name="PendingTransactionActivity_2">Há aplicativos suspeitos instalados em seu dispositivo. Não foi possivel autorizar esta transação</string>
+	
+	<string name="RegisterDeviceTask_1">Aguarde...</string>
+	
+	<string name="TaspAsyncTask_1">Aguarde...</string>
+	
+	<string name="TransferActivity_1">Transação realizada com sucesso.</string>
+	
+	<string name="TransferActivity_2">Sucesso</string>
+	
+	<string name="TransferActivity_3">Error</string>
+	
+	<string name="TransferActivity_4">Há aplicativos suspeitos instalados em seu dispositivo. Essa transação foi bloqueada</string>
+	
+	<string name="TransferActivity_5">Por favor preencha todas as informações</string>
+	
+	<string name="TransferActivity_6">Transação autorizada com sucesso, utilizando o OTP VASCO:</string>
+	
+	<string name="UnlockCardTask_1">Aguarde...</string>
+	
+	<string name="UnlockCardTask_2">Desbloqueando o cartão</string>
+	
+	<string name="UnlockCardTask_3">Cartão desbloqueado</string>
+	
+	<string name="UnlockCardTask_4">Falha no desbloqueio do cartão</string>
+	
+	<string name="UnlockCardTask_5">Desbloqueio de cartão</string>
+	
+	<string name="AuthenticusHelper_1">error</string>
+	
+	<string name="AuthenticusHelper_2">Chave de comunicação inválida!</string>
+	
+	<string name="AuthenticusHelper_3">Erro interno!</string>
+	
+	<string name="AuthenticusHelper_4">Sessão de server inválida.</string>
+	
+	<string name="BVDatabaseUpdateHandler_1">Atualização interrompida.</string>
+	
+	<string name="BVDatabaseUpdateHandler_2">Atualização finalizada com sucesso!</string>
+	
+	<string name="BVDatabaseUpdateHandler_3">Ocorreu um erro ao atualizar a base de dados.</string>
+	
+	<string name="BVDatabaseUpdateHandler_4">Conectando...</string>
+	
+	<string name="BVDatabaseUpdateHandler_5">Carregando Cabeçalho.</string>
+	
+	<string name="BVDatabaseUpdateHandler_6">Não está atualizado. Iniciando Atualização.</string>
+	
+	<string name="BVDatabaseUpdateHandler_7">"Carregando arquivos: "</string>
+	
+	<string name="BVDatabaseUpdateHandler_8">" de "</string>
+	
+	<string name="BVDatabaseUpdateHandler_9">"Instalando arquivos: "</string>
+	
+	<string name="BVDatabaseUpdateHandler_10">Carregando heurística.</string>
+	
+	<string name="BVDatabaseUpdateHandler_12">Instalando heurística.</string>
+	
+	<string name="BVScannerHandler_1">Ocorreu um erro ao examinar dispositivo.</string>
+	
+	<string name="BVScannerHandler_2">Nenhum malware encontrado.</string>
+	
+	<string name="ProtectorScanDeviceActivity_1">Deseja cancelar o exame?</string>
+	
+	<string name="ProtectorScanResultActivity_1">Todos malwares foram removidos com sucesso.</string>
+	
+	<string name="ProtectorUpdateActivity_1">Deseja cancelar a atualização?</string>
+	
+	<string name="TaspServiceHelper_1">ERRO: 0x1 - Falha ao codificar mensagem de envio</string>
+	
+	<string name="TaspServiceHelper_2">ERRO: 0x2 - Falha ao decodificar mensagem de retorno</string>
+	
+	<string name="TaspServiceHelper_3">ERRO: 0x3 - Erro ao instanciar as transações</string>
+	
+	<string name="TaspServiceHelper_4">ERRO: 0x4 - Falha na leitura do XML de retorno</string>
+	
+	<string name="TaspServiceHelper_5">ERRO: 0x5 - Não foi possível estabelecer uma conexão com o servidor. Verifique sua conexão com a internet e tente novamente</string>
+	
+	<string name="TaspServiceHelper_6">ERRO: 0x6 - Comandos incorretos</string>
+	
+	<string name="TaspServiceHelper_7">ERRO 1.%s - Erro Interno</string>
+	
+	<string name="TaspServiceHelper_8">Codigo de autorização: %s</string>
+	
+	<string formatted="false" name="TaspServiceHelper_9">Codigo de autorização: %i\nR$ %s</string>
+	
+	<string name="TaspServiceHelper_10">Erro 0x71 - Erro interno</string>
+	
+	<string name="TaspServiceHelper_11">ERRO 1.%s - Erro Interno</string>
+	
+	<string name="TaspServiceHelper_12">ERRO - Não foi possível cadastrar o dispositivo. Código:</string>
+	
+	<string name="TransactionListAdapter_1">Agência: </string>
+	
+	<string name="TransactionListAdapter_2">Conta: </string>
+	
+	
+	
+</resources>
